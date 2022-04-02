@@ -1,0 +1,63 @@
+body
+{
+  color: rgb(124, 113, 113);
+  background: #d8f9fc;
+  font-family: 'Inspiration', cursive;
+
+}
+span
+{
+  font-size: 45px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 350px; 
+  background-color: white;
+  box-shadow: 5px 5px 5px gray;
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: rgb(163, 16, 126);
+}
+.emotion_name
+{
+  font-size: 50px;
+}
+.emoji
+{
+  font-size: 60px;
+  
+}
+.btn-info{
+  font-size: 65px;
+  text-shadow:2px 2px royalblue;
+  box-shadow: 5px 5px 5px rgb(199, 193, 193)
+}
+.btn-danger{
+  animation-name: example;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  color: black;
+}
+@keyframes example{
+  0%{background-color: crimson;}
+  25%{background-color: magenta;}
+  50%{background-color: turquoise;}
+  100%{background-color: springgreen;}
+
+}
+.btn-success{
+  animation-name: example;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  color: black;
+}
+@keyframes example{
+  0%{background-color: rgb(255, 85, 85);}
+  25%{background-color: rgb(200, 255, 0);}
+  50%{background-color: rgb(38, 0, 255);}
+  100%{background-color: rgb(255, 0, 234);}
+
+}
